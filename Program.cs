@@ -6,6 +6,11 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
+            /* Nombre: Jhon Michael De La Rosa
+               Matricula: 20251861
+             */
+
+
             int option = 0;
 
             while (option != 6)
