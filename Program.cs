@@ -6,8 +6,11 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            /* Nombre: Jhon Michael De La Rosa
-               Matricula: 20251861
+
+
+            /*
+             Nombre: Jhon Michael 
+             Matricula: 20251861
              */
 
 
@@ -29,7 +32,6 @@ namespace Calculadora
 
                 Console.Write("Select an option: ");
 
-                // Validamos la opción directamente aquí
                 bool optionValid = int.TryParse(Console.ReadLine(), out option);
                 Console.Clear();
 
@@ -163,7 +165,6 @@ namespace Calculadora
                                     break;
                                 }
 
-                                // Corregido: double.TryParse en vez de Parse
                                 if (double.TryParse(text, out double number))
                                 {
                                     if (contador == 0)
